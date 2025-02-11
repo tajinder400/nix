@@ -23,7 +23,6 @@
     zoom-us
 
     # IDE
-    vscode
     mise
 
     # cloud native
