@@ -1,14 +1,5 @@
 {
   description = "NixOS configuration of Aaron";
-
-  ##################################################################################################################
-  #
-  # Want to know Nix in details? Looking for a beginner-friendly tutorial?
-  # Check out https://github.com/ryan4yin/nixos-and-flakes-book !
-  #
-  ##################################################################################################################
-
-  # the nixConfig here only affects the flake itself, not the system configuration!
   nixConfig = {
     # substituers will be appended to the default substituters when fetching packages
     # nix com    extra-substituters = [munity's cache server
