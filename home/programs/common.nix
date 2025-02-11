@@ -20,6 +20,7 @@
     bitwarden-desktop
     vesktop
     element-desktop
+    zoom-us
 
     # IDE
     vscode
