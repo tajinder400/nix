@@ -7,7 +7,7 @@
   # MacOS-like window switching
   programs.plasma = {
     enable = true;
-    overrideConfig = true;
+    overrideConfig = false;
     shortcuts.kwin = {
       "Walk Through Windows" = "Meta+Tab";
     };
@@ -32,6 +32,11 @@
       ksmserverrc.General.loginMode = "emptySession";
     # Disable Single Click to open Folder
       kdeglobals.KDE.SingleClick = lib.mkForce false;
+    # Xwayland scaling
+      kwinrc.Xwayland.Scale = {
+        value = 1;
+        immutable = true;
+      };
   };
   };
 
