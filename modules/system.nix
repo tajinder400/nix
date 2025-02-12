@@ -98,7 +98,8 @@
 
   # Enable sound with pipewire.
   #sound.enable = true;
-  hardware.pulseaudio.enable = false;
+  #hardware.pulseaudio.enable = false; # 24.X options
+  services.pulseaudio.enable = false;
   services.power-profiles-daemon = {
     enable = true;
   };
