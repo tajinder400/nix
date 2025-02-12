@@ -32,6 +32,9 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  #Enable Flatpak
+  services.flatpak.enable = true;
+
   # Enable Hardware Acceleration
   hardware.graphics = {
   enable = true;

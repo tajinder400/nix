@@ -21,6 +21,8 @@
     vesktop
     element-desktop
     zoom-us
+    mesa-demos
+
 
     # IDE
     mise

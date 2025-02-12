@@ -9,7 +9,7 @@
 
   home.packages = with pkgs; [
     # audio control
-    plex-desktop
+    #plex-desktop
     plexamp
     spotify
     mpv
