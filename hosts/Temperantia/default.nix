@@ -32,6 +32,12 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  # Enable Hardware Acceleration
+  hardware.graphics = {
+  enable = true;
+  enable32Bit = true;
+};
+  
   # for Nvidia GPU
   services.xserver.videoDrivers = ["nvidia"];
 
