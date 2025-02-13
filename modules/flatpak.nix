@@ -7,7 +7,6 @@ let
   # 1. Declare the Flatpaks you *want* on your system
   desiredFlatpaks = [
     "tv.plex.PlexDesktop"
-    #"org.mozilla.thunderbird"
   ];
 in
 {
@@ -34,7 +33,10 @@ in
         ${pkgs.flatpak}/bin/flatpak install -y flathub $app
       done
 
-      # 6. Update all installed Flatpaks
+      # 6. Remove unused Flatpaks
+      ${pkgs.flatpak}/bin/flatpak uninstall --unused -y
+
+      # 7. Update all installed Flatpaks
       ${pkgs.flatpak}/bin/flatpak update -y
     '';
   };

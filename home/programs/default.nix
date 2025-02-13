@@ -6,6 +6,5 @@
     ./media.nix
     ./xdg.nix
     ./code.nix
-    ./flatpak.nix
   ];
 }
