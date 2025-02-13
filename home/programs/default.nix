@@ -6,5 +6,6 @@
     ./media.nix
     ./xdg.nix
     ./code.nix
+    ./terminal.nix
   ];
 }
