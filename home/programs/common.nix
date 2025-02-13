@@ -22,6 +22,7 @@
     element-desktop
     zoom-us
     mesa-demos
+    kdePackages.kcalc
 
 
     # IDE
