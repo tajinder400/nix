@@ -8,5 +8,9 @@ programs.ghostty = {
     background-opacity = 0.9;
   };
 };
+programs.starship = {
+  enable = true;
+  enableBashIntegration = true;
+};
 
 }

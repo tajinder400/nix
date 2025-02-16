@@ -26,7 +26,7 @@
 
 
     # IDE
-    mise
+    #mise
 
     # cloud native
     docker-compose
