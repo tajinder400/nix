@@ -23,6 +23,7 @@
     zoom-us
     mesa-demos
     kdePackages.kcalc
+    mediawriter
 
 
     # IDE
